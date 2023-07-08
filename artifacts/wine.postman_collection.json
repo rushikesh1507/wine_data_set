@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "9dd342b2-35d6-4a38-8006-7909f3a02412",
+		"name": "wine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28207662"
+	},
+	"item": [
+		{
+			"name": "http://192.168.1.105:5002/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fixed_acidity",
+							"value": "7.0",
+							"type": "text"
+						},
+						{
+							"key": "volatile_acidity",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "citric_acid",
+							"value": "0.47",
+							"type": "text"
+						},
+						{
+							"key": "residual_sugar",
+							"value": "3.6",
+							"type": "text"
+						},
+						{
+							"key": "chlorides",
+							"value": "0.067",
+							"type": "text"
+						},
+						{
+							"key": "free_sulfur_dioxide",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "total_sulfur_dioxide",
+							"value": "42",
+							"type": "text"
+						},
+						{
+							"key": "density",
+							"value": "0.47",
+							"type": "text"
+						},
+						{
+							"key": "pH",
+							"value": "3.39",
+							"type": "text"
+						},
+						{
+							"key": "sulphates",
+							"value": "0.66",
+							"type": "text"
+						},
+						{
+							"key": "alcohol",
+							"value": "13",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.105:5002/predict",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"105"
+					],
+					"port": "5002",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
