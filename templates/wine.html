@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine qaulity prediction</title>
+</head>
+
+<body style="background-color: rgb(243, 249, 245);">
+    <!-- <img src="./download.jpg" width="500" height="600"> -->
+
+    <h1> Wine Qaulity Prediction </h1>
+    <form method="POST" action="/predict">
+
+        <label>Fixed Acidity:</label>
+        <input type = "text" name = "fixed_acidity">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Volatile Acidity:</label>
+        <input type = "text" name = "volatile_acidity">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Citric Acid:</label>
+        <input type = "text" name = "citric_acid">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Residual Sugar:</label>
+        <input type = "text" name = "residual_sugar">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Chlorides:</label>
+        <input type = "text" name = "chlorides">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Free Sulfur Dioxide:</label>
+        <input type = "text" name = "free_sulfur_dioxide">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Total Sulfur Dioxide:</label>
+        <input type = "text" name = "total_sulfur_dioxide">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Density:</label>
+        <input type = "text" name = "density">
+        </select>
+
+        <br>
+        <br>
+
+        <label>pH Level:</label>
+        <input type = "text" name = "pH">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Sulphates:</label>
+        <input type = "text" name = "sulphates">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Alcohol:</label>
+        <input type = "text" name = "alcohol">
+        </select>
+        
+
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <h2><strong> <b> {{ prediction }} </b>  </strong></h2>
+
+
+    </form>
+
+
+</body>
+</html>
+
